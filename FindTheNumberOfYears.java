@@ -11,9 +11,9 @@ public class FindTheNumberOfYears {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("enter > ");
-        String input_text = scanner.nextLine();
-        System.out.println(input_text + "nyuuryoku");
+        System.out.println("please enter num: ");
+        int num = scanner.nextInt();
+        System.out.println("enter = " + num);
         scanner.close();
 
 
